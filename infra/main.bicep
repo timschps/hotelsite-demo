@@ -13,7 +13,7 @@ param location string = resourceGroup().location
 
 @description('App Service Plan SKU')
 @allowed(['F1', 'B1', 'B2', 'S1', 'P1v3'])
-param appServicePlanSku string = 'B1'
+param appServicePlanSku string = 'F1'
 
 @description('Azure OpenAI endpoint URL')
 @secure()
